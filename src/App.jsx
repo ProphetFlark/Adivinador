@@ -74,6 +74,7 @@ const App = () => {
       ) : pregunta === "" ? (
         <>
           {" "}
+          <h1>CITYNATOR - CRISTOPHER ABRAHAN PAIZ LÓPEZ 1490-19-19537</h1>
           <div className="imagen">
             <img
               src="https://avatars.mds.yandex.net/get-games/3006389/2a00000185cd495f5a44d6765c6e80a31339/orig"
