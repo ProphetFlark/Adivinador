@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: snow;
+}
+.nuevojuego {
+  border: 1px solid black;
+  padding: 30px 70px;
+  font-size: 1.6rem;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 10px;
+}
+
+.nuevojuego:hover {
+  background-color: rgb(2, 97, 192);
+  cursor: pointer;
+}
+
+.preguntas {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.botones {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.botones button {
+  width: 150px;
+  padding: 20px 40px;
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: snow;
+  border: none;
+  border-radius: 15px;
+}
+
+.botones button:first-child {
+  background-color: rgb(0, 255, 0);
+}
+
+.botones button:last-child {
+  background-color: rgb(255, 0, 0);
+}
+
+.botones button:hover {
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+
+.jugardenuevo {
+  border: 1px solid black;
+  padding: 30px 70px;
+  font-size: 1.6rem;
+  background-color: rgb(240, 255, 30);
+  color: black;
+  border-radius: 10px;
+}
+
+.jugardenuevo:hover {
+  background-color: rgb(173, 185, 0);
+  cursor: pointer;
+}
+
+.acertado {
+  font-size: 5rem;
+}
+
+.nuevaciudad {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  justify-content: center;
+  margin: 0 auto 60px auto;
+}
+.checkboxes .labeles {
+  text-align: left;
+  width: 350px;
+}
+.anadir {
+  width: 220px;
+  padding: 10px 20px;
+  font-weight: 900;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(77, 255, 172);
+  margin-right: 80px;
+}
+
+.anadir:hover {
+  cursor: pointer;
+  filter: brightness(0.5);
+}
